@@ -1,5 +1,6 @@
 package com.example.frasedodia;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
 
     public void gerarFrase(View view) {
         TextView texto = findViewById(R.id.textResultado);
